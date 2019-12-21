@@ -1,13 +1,17 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+
+using libraryApp.Data;
 
 namespace libraryApp
 {
@@ -24,6 +28,8 @@ namespace libraryApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<MvcBookContext>(options =>
+            options.UseSqlite(Configuration.GetConnectionString("MvcBookContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

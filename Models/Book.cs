@@ -1,12 +1,13 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace libraryApp.Models;
+namespace libraryApp.Models
 {
-    public class Movie
+    public class Book
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public string Author { get; set; }
 
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }

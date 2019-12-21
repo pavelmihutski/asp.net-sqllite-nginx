@@ -20511,8 +20511,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Index.cshtml",
+      "TargetPath": "Views/Book/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Delete.cshtml",
+      "TargetPath": "Views/Book/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views/Shared/_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Edit.cshtml",
+      "TargetPath": "Views/Book/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20521,8 +20536,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Details.cshtml",
+      "TargetPath": "Views/Book/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/_ViewStart.cshtml",
       "TargetPath": "Views/_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Create.cshtml",
+      "TargetPath": "Views/Book/Create.cshtml",
       "FileKind": "mvc"
     },
     {
