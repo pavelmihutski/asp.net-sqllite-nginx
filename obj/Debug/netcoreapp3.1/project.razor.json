@@ -20531,11 +20531,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views/Home/Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Details.cshtml",
       "TargetPath": "Views/Book/Details.cshtml",
       "FileKind": "mvc"
@@ -20548,11 +20543,6 @@
     {
       "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Book/Create.cshtml",
       "TargetPath": "Views/Book/Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/p.mihutski/study.dir/libraryApp/Views/Home/Index.cshtml",
-      "TargetPath": "Views/Home/Index.cshtml",
       "FileKind": "mvc"
     },
     {

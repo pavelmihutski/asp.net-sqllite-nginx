@@ -1,5 +1,6 @@
 {
     "scripts": {
-        "start:dev": "dotnet watch run"
+        "start:dev": "dotnet watch run",
+        "start:docker": " docker  run -it -p 8000:80 libraryapp"
     }
 }

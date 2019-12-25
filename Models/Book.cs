@@ -9,6 +9,7 @@ namespace libraryApp.Models
         public string Title { get; set; }
         public string Author { get; set; }
 
+        [Display(Name = "Release Date")] // change displayed name on the view 
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
