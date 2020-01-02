@@ -20,9 +20,17 @@ namespace libraryApp.Controllers
         }
 
         // GET: Book
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search)
         {
-            return View(await _context.Book.ToListAsync());
+            var books = from m in _context.Book
+                        select m;
+
+            if (!String.IsNullOrEmpty(search))
+            {
+                books = books.Where(s => s.Title.Contains(search));
+            }
+
+            return View(await books.ToListAsync());
         }
 
         // GET: Book/Details/5
